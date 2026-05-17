@@ -11,5 +11,12 @@ public class JOptionPaneDemo {
     public static void main(String[] args) {
         String username = JOptionPane.showInputDialog("Enter username:");
         String password = JOptionPane.showInputDialog("Enter password:");
+
+        if (username.equals("Hero") && password.equals("Zero")) {
+            JOptionPane.showMessageDialog(null, "Access Granted");
+        }
+        else {
+            JOptionPane.showMessageDialog(null, "Incorrect Credentials");
+        }
     }
 }
