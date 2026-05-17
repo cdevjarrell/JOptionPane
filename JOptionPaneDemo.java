@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 public class JOptionPaneDemo {
 
     public static void main(String[] args) {
-        // Code will be added here
+        String username = JOptionPane.showInputDialog("Enter username:");
+        String password = JOptionPane.showInputDialog("Enter password:");
     }
 }
